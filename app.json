@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "MobilePasswordManager",
+    "slug": "MobilePasswordManager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.MobilePasswordManager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.MobilePasswordManager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "./plugins/trust-local-certs.js"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "da5a1bc0-719a-4df3-acf7-f1da51ed902a"
+      }
+    }
+  }
+}
