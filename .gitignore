@@ -41,7 +41,6 @@ yarn-error.*
 
 # video, figure
 *.webm
-*.png
 
 # apk, aab
 *.apk
